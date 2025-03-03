@@ -1,0 +1,32 @@
+/* Elemen Selector */
+body{
+    background-color: antiquewhite;
+    font-family: verdana;
+}
+p{
+    color:black;
+}
+a{
+    text-decoration: none;
+    color:blue;
+}
+a:hover{
+    color:black;
+    text-decoration: underline;
+}
+.rounded{
+    border-radius: 20px;
+}
+
+/*Class Selector*/
+.bg-warning{
+    background-color: yellow;
+}
+.text-success{
+    color:green;
+}
+
+/*ID Selector*/
+#p{
+    color:darkblue
+}
